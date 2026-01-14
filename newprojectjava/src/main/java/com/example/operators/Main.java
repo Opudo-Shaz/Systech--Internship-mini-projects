@@ -15,6 +15,7 @@ public class Main {
         return a + b;
     }
 
+
     public static void arithmeticOperators(){
         System.out.println("Arithmetic Operators");
         int a = 10;
@@ -59,10 +60,28 @@ public class Main {
 
     public static void logicalOperators(){
         System.out.println("Logical Operators");
+        boolean hasHighIncome = true;
+        boolean hasGoodCredit = false;  
+        boolean isEligible = hasHighIncome && hasGoodCredit;
+        System.out.println("Is Eligible for loan: " + isEligible);
+
+        int balance = 1200;
+        int charges = 200;
+        int withdrawAmount = 1000;
+        boolean canWithdraw = (balance >= withdrawAmount + charges) || hasHighIncome;
+        boolean isLoggedIn = true;
+        canWithdraw = canWithdraw && isLoggedIn;
+        System.out.println("Can Withdraw: " + canWithdraw);
     }
 
     public static void incrementDecrementOperators(){
         System.out.println("Increment/Decrement Operators");
+        int a = 10;
+        System.out.println("Initial value of a: " + a);
+        System.out.println("Post-increment: " + (a++));
+        System.out.println("Value of a after post-increment: " + a);
+        System.out.println("Pre-increment: " + (++a));
+        System.out.println("Value of a after pre-increment: " + a);
     }
 }
     
