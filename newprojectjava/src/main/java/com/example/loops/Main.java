@@ -1,5 +1,5 @@
 package com.example.loops;
-
+ 
 import java.util.Scanner;
 
 public class Main {
