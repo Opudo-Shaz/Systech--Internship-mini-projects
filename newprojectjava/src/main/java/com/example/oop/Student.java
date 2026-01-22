@@ -11,7 +11,7 @@ public class Student {
         this.name = name;
         this.age = age;
     }
-    
+
   @Override
     public String toString() {
         return "Student{name='" + name + "', age=" + age + "}";
@@ -20,4 +20,4 @@ public class Student {
     public void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
-}
+} 
