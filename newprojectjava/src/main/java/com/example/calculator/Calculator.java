@@ -12,7 +12,7 @@
 * Bonus Features:
 * - Modulo operation (%)
 * - Power operation (^)
-* - Percentage calculation
+* - Percentage calculation 
 * - Invalid operator detection with user-friendly error messages
 */
 
