@@ -44,7 +44,7 @@ public class Student {
 
     // Getter and Setter for age
     public int getAge() {
-        return age;
+        return age;  
     }
 
     public void setAge(int age) {
