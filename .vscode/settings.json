@@ -2,5 +2,6 @@
     "java.configuration.updateBuildConfiguration": "interactive",
     "cSpell.words": [
         "newprojectjava"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
