@@ -1,0 +1,29 @@
+
+Issue 1: Incorrect assignment in the setSalary method
+
+The statement salary = salary; assigns the method parameter to itself instead of updating the instance variable. As a result, the employee’s salary is never stored in the object.
+
+Fix:
+Use the this keyword to refer to the instance variable and correctly assign the value.
+
+
+Issue 2: Invalid salary values are not properly handled
+
+When a negative salary is provided, the program only prints an error message but still allows the method to continue executing. This can lead to incorrect salary values being stored.
+
+Fix:
+Terminate the method execution when an invalid salary is detected by using a return statement, preventing the assignment from taking place.
+
+Issue 3: Incorrect return type in the calculateBonus method
+
+The method calculateBonus is declared with a void return type but attempts to return a value. This causes an error because a void method cannot return data.
+
+Fix:
+Change the method return type to double so that it can correctly return the calculated bonus value.
+
+Issue 4: Static variable companyName is not initialized
+
+The static variable companyName is declared but never given a value. This can lead to unexpected null values when the variable is accessed.
+
+Fix:
+Initialize the static variable at the point of declaration or provide a setter method to assign its value before use.
