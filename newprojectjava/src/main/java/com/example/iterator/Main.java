@@ -16,7 +16,7 @@ public class Main {
         System.out.println(value);
     }
 
-
+//iterating through array of strings
     List<String> cities = new ArrayList<>(List.of("NY", "London", "Tokyo"));
 
         ListIterator<String> iterator = cities.listIterator();

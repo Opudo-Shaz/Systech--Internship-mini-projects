@@ -15,7 +15,7 @@ public class Main {
         System.out.println(list.get(1));
         System.out.println(list.get(2));
 
-        public static boxOperations(){
+        public static enum boxOperations(){
             Box bookBook = new Box();
         }
 
