@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class PredicateDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
    
         Predicate<Integer> isEven = n -> n % 2 == 0;
 
