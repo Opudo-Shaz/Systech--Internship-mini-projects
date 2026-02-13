@@ -18,7 +18,7 @@ public class StreamsDemo {
         List<String> result = names.stream()
         .filter(nameStartingWithA)
         .map(toUpperCaseFunction)
-        .collect(Collectors.toList());
+        .collect(Collectors.toList()); 
 
         System.out.println(result);
 
