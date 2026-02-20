@@ -28,7 +28,21 @@ public class Main {
             System.out::println,
             () -> System.out.println("Optional name5 is empty")
         );
+
         
+        //illustrating the use of optionals in a class
+        System.out.println("Illustrating the use of optionals in a class:");
+        Person person1 = new Person("Alice", 30);
+        Person person2 = new Person(null, 25);
+        System.out.println("Person 1 name: " + person1.getNameOptional().orElse("Default Name"));
+        System.out.println("Person 1 age: " + person1.getAgeOptional().orElse(0));
+        System.out.println("Person 2 name: " + person2.getNameOptional().orElse("Default Name"));
+        System.out.println("Person 2 age: " + person2.getAgeOptional().orElse(0));
+     
+        
+    
+    
+    
     }
     
 }
