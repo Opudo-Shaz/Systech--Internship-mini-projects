@@ -26,7 +26,7 @@ public class Main {
             String input = scanner.nextLine();
             int age = Integer.parseInt(input);
             System.out.println("Your age is: " + age);
-        } catch (NumberFormatException e) {
+        } catch (NumberFormatException e)   {
             System.out.println("Error: Invalid input. Please enter a valid integer for age.");
         } finally {
             scanner.close(); 
