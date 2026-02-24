@@ -18,6 +18,7 @@ public class Main {
         }
 
         // This works because Student implements Comparable
+        //implemented inside the Student class and used for one by one student object and compared with the other student object and sorted by name
         Collections.sort(students);
 
         System.out.println("\nAfter sorting (by name):");
