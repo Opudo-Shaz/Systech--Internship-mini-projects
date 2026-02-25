@@ -1,4 +1,4 @@
-package com.example.customexceptions;
+package com.example.customexceptions; 
 import java.util.Set;
 import java.util.HashSet;
  
@@ -17,6 +17,8 @@ public class StudentAlreadyExistException extends Exception {
             System.out.println("Student created: " + name + ", Roll Number: " + rollNumber + ", Subject: " + subject);
         }   
     }
+
+    //checked exception means we have to handle it using try catch block or throw it to the caller method
     //method to fetch student by name
     public static String getStudentByName(String name) throws StudentNotFoundException {
         HashSet<String> names = new HashSet<>();

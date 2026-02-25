@@ -9,6 +9,8 @@ public class StreamCreation {
         //generating infinite stream of natural numbers
         System.out.println("Generating infinite stream of natural numbers:");
         Stream<Double> stream = Stream.generate(() -> Math.random()).limit(5);
+
+        //unary operator takes a single argument and returns a result of the same type. In this case, it takes an Integer and returns the next Integer by adding 1 to it.
         UnaryOperator<Integer> nextInt = n -> n + 1;
         Stream.iterate(0, nextInt).limit(5).forEach(System.out::println);
         stream.forEach(System.out::println);
@@ -18,7 +20,10 @@ public class StreamCreation {
         System.out.println("Sorting and peeking elements in stream:");
         List<String> namesList = List.of("Alice", "John","Abedi","Jeff");
         Stream<String> names = namesList.stream();
-        names.sorted().peek(System.out::println).forEach(System.out::println);System.out.println(names);
+        names.sorted()
+        .peek(System.out::println)
+        .forEach(System.out::println);
+        System.out.println(names);
 
         //filtering and peeking elements in stream
         System.out.println("Filtering and peeking elements in stream:");

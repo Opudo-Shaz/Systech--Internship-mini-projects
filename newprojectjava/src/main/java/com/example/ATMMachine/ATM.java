@@ -13,9 +13,10 @@ public class ATM {
         System.out.println("3. Deposit Cash");
         System.out.println("4. Exit");
         choice = scanner.nextInt();
-    }while(choice != 4);
-
-
-    }
+    }while(assert choice != 4);
+    
+    
+        }
+        scanner.close();
     
 }
