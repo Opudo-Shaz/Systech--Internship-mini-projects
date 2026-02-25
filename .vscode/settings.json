@@ -1,7 +1,8 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "cSpell.words": [
-        "newprojectjava"
+        "newprojectjava",
+        "springframework"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
     "java.compile.nullAnalysis.mode": "automatic"

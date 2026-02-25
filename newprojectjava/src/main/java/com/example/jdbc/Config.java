@@ -1,9 +1,10 @@
-package com.example.jdbc; 
+package com.example.jdbc;
 
 public class Config {
-    private String databaseUrl;
-    public static final String username = "sharon";
-    public static final String password = "shara2010@";
+
+    private final String databaseUrl;
+    private final String username;
+    private final String password;
 
     public Config(String databaseUrl, String username, String password) {
         this.databaseUrl = databaseUrl;
@@ -22,5 +23,4 @@ public class Config {
     public String getPassword() {
         return password;
     }
-    
 }

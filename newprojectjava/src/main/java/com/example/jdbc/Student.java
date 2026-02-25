@@ -3,7 +3,7 @@ package com.example.jdbc;
 public class Student {
     private int id;
     private String RegNo;
-    private String FirtName;
+    private String FirstName;
     private String LastName;
     private int IdNumber;
     private String email;
@@ -11,10 +11,10 @@ public class Student {
     public Student() {
     }
 
-    public Student(int id, String RegNo, String FirtName, String LastName, int IdNumber, String email) {
+    public Student(int id, String RegNo, String FirstName, String LastName, int IdNumber, String email) {
         this.id = id;
         this.RegNo = RegNo;
-        this.FirtName = FirtName;
+        this.FirstName = FirstName;
         this.LastName = LastName    ;
         this.IdNumber = IdNumber;
         this.email = email;
@@ -37,11 +37,11 @@ public class Student {
     }
 
     public String getFirstName() {
-        return FirtName;
+        return FirstName;
     }
 
-    public void setFirstName(String FirtName) {
-        this.FirtName = FirtName;
+    public void setFirstName(String FirstName) {
+        this.FirstName = FirstName;
     }
 
     public String getLastName() {
