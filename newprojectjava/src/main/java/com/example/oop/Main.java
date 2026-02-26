@@ -20,6 +20,8 @@ public class Main {
         System.out.println(student2);
         student1.displayInfo();
         student2.displayInfo();
+
+
     }
     
 }

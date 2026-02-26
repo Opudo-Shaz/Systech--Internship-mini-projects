@@ -53,5 +53,11 @@ public static void newDateSystem() {
         System.out.println("Both dates are the same");
     }
 }
+
+//period between two dates
+public static void periodBetweenDates() {
+    LocalDate startDate = LocalDate.of(2020, 1, 1);
+    LocalDate endDate = LocalDate.of(2023, 8, 15);
+    System.out.println("Period between dates: " + startDate.until(endDate));
     
 }
