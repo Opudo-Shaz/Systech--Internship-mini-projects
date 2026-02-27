@@ -1,4 +1,4 @@
-package com.example.enumeration; 
+package com.example.enumeration;  
 
 public enum EnumsDemo {
     // Define enum constants
