@@ -1,4 +1,4 @@
-package com.example.calculator; 
+package com.example.calculator;  
 
 public class StringTest {
     public static void main(String[] args) {
